@@ -9,7 +9,7 @@ export function SettingsProvider({ children }) {
   const [settings, setSettings] = useState(defaults);
 
   const refresh = useCallback(() => {
-    api("/settings")
+    api("/admin/settings")
       .then((data) => setSettings(data.settings))
       .catch(() => {});
   }, []);

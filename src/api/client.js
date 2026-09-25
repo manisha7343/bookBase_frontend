@@ -1,7 +1,7 @@
 // Small wrapper around fetch for talking to the BookBase backend.
 // The backend URL comes from VITE_API_URL (see .env.example).
 const API_URL = (
-  import.meta.env.VITE_API_URL || (import.meta.env.DEV ? "http://localhost:5000" : "")
+  import.meta.env.VITE_API_URL || "https://bookbase-backend.onrender.com"
 ).replace(/\/$/, "");
 
 const TOKEN_KEY = "bookbase_token";

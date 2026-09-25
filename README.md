@@ -20,7 +20,7 @@ The backend must be running (see the backend README).
 
 | Variable       | Description                                         |
 | -------------- | --------------------------------------------------- |
-| `VITE_API_URL` | Backend URL without `/api`, e.g. `http://localhost:5000` |
+| `VITE_API_URL` | Backend URL without `/api`, e.g. `https://bookbase-backend.onrender.com` |
 
 Vite reads this at build time, so set it on your hosting platform **before** building.
 
